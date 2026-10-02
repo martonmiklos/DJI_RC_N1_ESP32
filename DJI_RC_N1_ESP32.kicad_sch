@@ -4017,7 +4017,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.littelfuse.com/assetdocs/littelfuse-c-k-slide-js-series-datasheet?assetguid=aba42b08-0d2c-423b-813d-a2faa5a3bb14"
 			(at 113.03 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -4088,42 +4088,6 @@
 				(justify bottom)
 			)
 		)
-		(property "Package" "None"
-			(at 113.03 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/JS203011CQN/C%2526K/view-part/?ref=eda"
-			(at 113.03 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 113.03 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
 		(property "PARTREV" "VL"
 			(at 113.03 158.75 0)
 			(hide yes)
@@ -4137,18 +4101,6 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 113.03 158.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/JS203011CQN/C%2526K/view-part/?ref=snap"
 			(at 113.03 158.75 0)
 			(hide yes)
 			(show_name no)
