@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +209,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.25,
+        0.3,
+        0.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +241,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -661,7 +677,7 @@
         "uuid": "3e40f4ef-a1c4-4611-8916-4daf21f32461"
       }
     ],
-    "used_designators": "J_BOOT_TRIGGER1,J_BAT_R1,SW_MODE1,SW_PWR1,J_LEFT_STICK1,J_BAT_L1,J_RIGHT_STICK1,S1,SW_LAND1,U16,J_ZOOM1,#PWR15,#PWR17,#PWR37,#PWR45-46,#PWR130,SW1,SW6,NT1-2,LS1,SW_BOOT1,J1,J5",
+    "used_designators": "SW_BOOT1,LS1,#PWR2-3,#PWR5,#PWR14-15,#PWR17,#PWR23-24,#PWR26-32,#PWR37-38,#PWR45-46,#PWR130,J_ZOOM1,J1,J5,SW_MODE1,J_BAT_R1,SW_PWR1,SW_LAND1,Q1-5,U3,U16,D5-6,C3,C8,C14-15,NT1-2,SW1-2,SW6,J_LEFT_STICK1,R6-10,R13-16,J_BOOT_TRIGGER1,J_RIGHT_STICK1,J_BAT_L1,S1",
     "variants": []
   },
   "sheets": [
