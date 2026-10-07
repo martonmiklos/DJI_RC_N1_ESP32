@@ -4069,7 +4069,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
+		(property "Footprint" "footprints:XDCR_CMT-9605-85T"
 			(at 128.27 127 0)
 			(hide yes)
 			(show_name no)
