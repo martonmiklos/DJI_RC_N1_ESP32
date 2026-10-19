@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.25,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.1,
           "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_spoke_width": 0.75
         }
       },
       "diff_pair_dimensions": [
@@ -719,7 +719,7 @@
         "uuid": "3e40f4ef-a1c4-4611-8916-4daf21f32461"
       }
     ],
-    "used_designators": "#PWR2-3,#PWR5,#PWR14-15,#PWR17,#PWR23-24,#PWR26-32,#PWR37-42,#PWR45-54,#PWR130,C1-6,C8,C14-15,D5-6,J1,J5,J_BAT_L1,J_BAT_R1,J_BOOT_TRIGGER1,J_LEFT_STICK1,J_RIGHT_STICK1,J_ZOOM1,L1,LS1,NT1-2,Q1-5,R6-10,R13-18,R20-24,S1,SW1-2,SW6,SW_BOOT1,SW_LAND1,SW_MODE1,SW_PWR1,U3,U16",
+    "used_designators": "#PWR2-3,#PWR5,#PWR14-15,#PWR17,#PWR23-24,#PWR26-32,#PWR37-42,#PWR45-54,#PWR130,C1-6,C8,C14-15,D5-6,J1-2,J5,J_BAT_L1,J_BAT_R1,J_BOOT_TRIGGER1,J_LEFT_STICK1,J_RIGHT_STICK1,J_ZOOM1,L1,LS1,NT1-2,Q1-5,R6-10,R13-18,R20-24,S1,SW1-2,SW6,SW_BOOT1,SW_LAND1,SW_MODE1,SW_PWR1,U3,U16",
     "variants": []
   },
   "sheets": [

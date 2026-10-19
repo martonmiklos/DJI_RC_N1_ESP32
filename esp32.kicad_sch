@@ -186,6 +186,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -2460,6 +2647,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 66.04) (xy 153.67 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f37818-392c-4d5a-98ae-2029eb712475")
+	)
+	(wire
+		(pts
 			(xy 206.375 48.26) (xy 206.375 49.53)
 		)
 		(stroke
@@ -2487,6 +2684,26 @@
 			(type default)
 		)
 		(uuid "344673d4-3678-4c99-8daf-ac5e8952ca7d")
+	)
+	(wire
+		(pts
+			(xy 156.21 53.34) (xy 156.21 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c159a2-1caf-4dd3-8b89-b2ac51e2ad3f")
+	)
+	(wire
+		(pts
+			(xy 159.385 55.88) (xy 159.385 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "359e173b-3335-4b05-8873-9c29765c64a0")
 	)
 	(wire
 		(pts
@@ -2527,6 +2744,16 @@
 			(type default)
 		)
 		(uuid "4701354b-96a3-4b85-8e6e-d775e18a7142")
+	)
+	(wire
+		(pts
+			(xy 156.21 68.58) (xy 149.225 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4758d55b-f29a-4f9e-86eb-596a7ebaf8da")
 	)
 	(wire
 		(pts
@@ -2640,6 +2867,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.355 53.34) (xy 156.21 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c10353a-4612-423d-b167-552c65a64c59")
+	)
+	(wire
+		(pts
 			(xy 225.425 153.035) (xy 225.425 154.305)
 		)
 		(stroke
@@ -2677,6 +2914,16 @@
 			(type default)
 		)
 		(uuid "7a552c1e-5e86-4dc6-8fa9-dba72e010349")
+	)
+	(wire
+		(pts
+			(xy 153.67 50.8) (xy 173.355 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ba7012c-bbb0-43ff-9d78-956ed4765ffe")
 	)
 	(wire
 		(pts
@@ -2960,6 +3207,26 @@
 	)
 	(wire
 		(pts
+			(xy 173.355 55.88) (xy 159.385 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60a409f-8d13-43e2-a998-5b4d8aaa835e")
+	)
+	(wire
+		(pts
+			(xy 149.225 66.04) (xy 153.67 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97e6867-1d86-4b54-b5f4-f30c89322cdf")
+	)
+	(wire
+		(pts
 			(xy 149.225 93.98) (xy 154.94 93.98)
 		)
 		(stroke
@@ -3037,6 +3304,26 @@
 			(type default)
 		)
 		(uuid "febdc296-aa59-4a68-b7f4-70c507e8f51b")
+	)
+	(label "U0RX"
+		(at 166.37 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c0ac938-6984-46aa-bc35-e3cf1a2cce27")
+	)
+	(label "U0TX"
+		(at 166.37 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a99ffa0b-8900-429b-9dd6-065793b96b25")
 	)
 	(label "USB_D_R_N"
 		(at 154.305 76.2 0)
@@ -4044,6 +4331,170 @@
 			(project "DJI_RC_N1_ESP32"
 				(path "/3e40f4ef-a1c4-4611-8916-4daf21f32461/9ea93403-e75c-49e0-ba45-64552c0c634a"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x03")
+		(at 178.435 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f2d3080-e1a9-43bf-a845-94e625a4c6fc")
+		(property "Reference" "J2"
+			(at 181.61 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 181.61 54.6099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 178.435 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 178.435 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 178.435 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d3dd153-ccda-46f5-9d2a-16299a40849a")
+		)
+		(pin "2"
+			(uuid "885a209e-0795-49a8-8cc9-7a8533fe95ec")
+		)
+		(pin "3"
+			(uuid "15b4dcb0-54f6-458f-bb05-5904e0630702")
+		)
+		(instances
+			(project "DJI_RC_N1_ESP32"
+				(path "/3e40f4ef-a1c4-4611-8916-4daf21f32461/9ea93403-e75c-49e0-ba45-64552c0c634a"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 159.385 57.785 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b2117d5-0b23-4dea-a0d7-dbf7ae667f36")
+		(property "Reference" "#PWR040"
+			(at 159.385 64.135 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 159.385 62.865 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 159.385 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 159.385 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 159.385 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c70f135-1dc7-4b13-a051-44b0467c81ff")
+		)
+		(instances
+			(project "DJI_RC_N1_ESP32"
+				(path "/3e40f4ef-a1c4-4611-8916-4daf21f32461/9ea93403-e75c-49e0-ba45-64552c0c634a"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
